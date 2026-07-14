@@ -16,7 +16,7 @@ from telegram.ext import (
 )
 
 # ====== НАСТРОЙКИ ======
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВСТАВЬ_СЮДА_СВОЙ_ТОКЕН")
+BOT_TOKEN = "8953710054:AAHRJ66sA0FM9Jy-GvKc7AhyrN05OddNBCQ"
 DB_PATH = "finance.db"
 BASE_CURRENCY = "EUR"
 
