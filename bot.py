@@ -86,11 +86,8 @@ def init_db():
         )
     """)
 
-    # Добавляем дефолтные категории
     conn.commit()
     conn.close()
-
-    seed_defaults()
 
 
 DEFAULT_EXPENSE_CATEGORIES = [
